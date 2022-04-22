@@ -1,0 +1,65 @@
+body{
+    background-color:black;
+}
+.button{
+    color:blue;
+    background-color: aqua;
+    border-radius:10px;
+    align-items: right;
+}
+.title{
+    text-align: center;
+    color:whitesmoke;
+    margin-top: 80px;
+    text-decoration: underline;
+}
+.grid{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    color:white;
+    width:310px;
+    margin:130px auto 50px;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+@font-face {
+    font-family:Finger-Paint;
+    src: url(https://fonts.google.com/specimen/Finger+Paint?query=finger#standard-styles);
+}
+.box{
+    background-color:white;
+    width: 100px;
+    height: 100px;
+    cursor: crosshair;
+    color:black ;
+    font-size: 50px;
+    text-align: center;
+    font-family: cursive;
+}
+#playerTurn{
+    color:#00ffff;
+    text-align: center;
+    font-family:monospace;
+    font-size: 45px;
+}
+.reset{
+    color:rgb(172, 149, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 60px;
+    cursor: cell;
+    text-decoration: underline;
+}
+#halo{
+    color:white;
+}
+.celldecoration:hover{
+   color: aqua; 
+   font-family: cursive;
+}
+.win{
+    color: aqua;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
